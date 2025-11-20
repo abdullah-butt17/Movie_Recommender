@@ -1,0 +1,45 @@
+/* Light Mode */
+body.light-mode {
+    background: #f8f9fa;
+    color: #000;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.dark-mode #mainCard {
+    background: #1e1e1e;
+    color: white;
+    border: 1px solid #444;
+}
+
+.dark-mode input,
+.dark-mode select,
+.dark-mode textarea,
+.dark-mode .form-control {
+    background-color: #2b2b2b;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode .list-group-item {
+    background-color: #2b2b2b;
+    color: white;
+    border-color: #444;
+}
+
+.dark-mode .btn-primary {
+    background-color: #0066ff;
+    border-color: #004dcc;
+}
+
+#mainCard {
+    border-radius: 12px;
+}
+
+.list-group-item {
+    font-size: 1.1rem;
+}
